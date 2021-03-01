@@ -22,7 +22,7 @@ public class EnvControllerTest {
         assertThat(env.get("PORT")).isEqualTo("8675");
         assertThat(env.get("MEMORY_LIMIT")).isEqualTo("12G");
         assertThat(env.get("CF_INSTANCE_INDEX")).isEqualTo("34");
-        assertThat(env.get("CF_INSTANCE_ADDR")).isEqualTo("123.sesame.street");
+        assertThat(env.get("INSTANCE_ADDRESS")).isEqualTo("123.sesame.street");
     }
 
 }
